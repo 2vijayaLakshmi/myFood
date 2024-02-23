@@ -1,5 +1,5 @@
 {
-  "name": "namaste_React",
+  "name": "myFood",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -29,5 +29,6 @@
   },
   "browsersList": [
     "last 2 Chrome versions"
-  ]
+  ],
+  "alias": { "process": false } 
 }
