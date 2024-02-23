@@ -1,0 +1,126 @@
+/* .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.nav-item > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item > ul > li{
+    padding: 10px;
+} 
+
+.logo{
+    width: 100px;
+}  */
+
+.card {
+  width: 400px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 20px;
+}
+
+.card > img {
+  width: 400px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  width: 400px;
+  height: 200px;
+  background: lightgray;
+  margin: 20px;
+}
+
+.menu {
+  display: flex;
+  border: 1px solid black;
+  width: inherit;
+}
+
+.addItem {
+  padding: 2px;
+  margin: 5px;
+  background-color: greenyellow;
+  border-radius: 2px;
+  border: 2px solid greenyellow;
+}
+
+.cart {
+  display: flex;
+}
+
+.clear {
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+.footer {
+  padding: 10px;
+  margin-top: auto; /* Push the footer to the bottom of the screen */
+  background-color: #f8f8f8; /* Add your desired background color */
+  text-align: center;
+}
+/* Common styles for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+}
+
+/* Styles for navigation items */
+.nav-item > ul {
+  list-style-type: none;
+  display: flex;
+  margin: 5px;
+  padding: 0;
+}
+
+.nav-item > ul > li {
+  padding: 10px;
+}
+
+/* Styles for the logo */
+.logo {
+  width: 100px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .header {
+    flex-direction: row; /* Stack items vertically on small screens */
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav-item {
+    margin-top: 10px; /* Add some space between logo and navigation on small screens */
+  }
+
+  .nav-item > ul {
+    flex-direction: row; /* Stack navigation items vertically on small screens */
+    align-items: center; /* Center items on small screens */
+    flex-wrap: wrap;
+  }
+
+  .nav-item > ul > li {
+    margin-bottom: 10px; /* Add some spacing between navigation items on small screens */
+  }
+}
