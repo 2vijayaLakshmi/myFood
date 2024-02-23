@@ -1,0 +1,6 @@
+tailwind.config.js
+node_modules
+.parcel-cache
+dist
+.babelrc
+.postcssrc
